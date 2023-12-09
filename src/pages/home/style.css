@@ -1,0 +1,1135 @@
+/* ==========================
+       nav part start
+============================= */
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+nav .main{
+    display: flex;
+    margin-top: 30px;
+}
+
+nav .logo{
+    width: 20%;
+}
+
+nav .nav-item{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav .nav-item ul{
+    text-align: right;
+}
+
+nav .nav-item ul li{
+    display: inline-block;
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    margin-left: 55px;
+    transition: .4s;
+}
+
+nav .nav-item ul li:hover{
+    color: #b7c5a9;
+}
+
+/* ==========================
+        nav part end
+============================= */
+
+/* ==========================
+       banner part start
+============================= */
+
+#banner{
+    background: url(../psd-img/footer-img.png) no-repeat center;
+    background-size: cover;
+}
+
+#banner .pata{
+    text-align: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#banner .main{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+#banner .details{
+    width: 40%;
+    margin-top: 200px;
+}
+
+#banner .details .since{
+    position: absolute;
+    top: 210px;
+    left: 6px;
+}
+
+#banner .details h2{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 99px;
+    font-weight: 500;
+    color: #fff;
+    position: relative;
+}
+
+#banner .details h4{
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 10px;
+}
+
+#banner .details p{
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 26px;
+    margin-top: 30px;
+}
+
+#banner .details .button{
+    width: 165px;
+    height: 60px;
+    background: #b7c5a9;
+    text-align: center;
+    line-height: 60px;
+    margin-top: 62px;
+    position: relative;
+}
+
+#banner .details .button a{
+    font-family: 'Arimo', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+
+#banner .details .button:after{
+    width: 0;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    top: 29px;
+    left: 148px;
+    content: "";
+    transition: .4s;
+}
+
+#banner .details .button:hover:after{
+    width: 60px;
+}
+
+#banner .image{
+    width: 48%;
+    height: 716px;
+}
+
+#banner .image .wine{
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+}
+
+#banner .image .wine img{
+    position: absolute;
+    top: 20px;
+    left: 155px;
+    z-index: 999;
+}
+
+#banner .image .main{
+    display: flex;
+}
+
+#banner .image .angur{
+    margin-top: 280px;
+    margin-left: 15px;
+}
+
+#banner .image .angur-two{
+    margin-top: 415px;
+    margin-left: 55px;
+}
+
+/* ==========================
+       banner part end
+============================= */
+
+/* ==========================
+      story part start
+============================= */
+
+#story-part{
+    margin-top: 100px;
+}
+
+#story-part .main{
+    display: flex;
+    justify-content: space-between;
+}
+
+#story-part .image{
+    width: 48%;
+}
+
+#story-part .details{
+    width: 49%;
+    margin-top: 120px;
+    margin-right: -70px;
+}
+
+#story-part .details h3{
+    font-family: 'Great Vibes', cursive;
+    font-size: 44px;
+    font-weight: 500;
+    color: #e4d2b9;
+    position: relative;
+}
+
+#story-part .details h3:after{
+    width: 200px;
+    height: 2px;
+    background: #e4d2b9;
+    position: absolute;
+    top: 25px;
+    left: 200px;
+    content: "";
+}
+
+#story-part .details p{
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444444;
+    line-height: 26px;
+    margin: 40px 0;
+}
+
+#story-part .details .button{
+    width: 165px;
+    height: 60px;
+    background: #e4d2b9;
+    text-align: center;
+    line-height: 60px;
+    position: relative;
+}
+
+#story-part .details .button a{
+    font-family: 'Arimo', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+
+#story-part .details .button:after{
+    width: 0;
+    height: 2px;
+    background: #a78f6d;
+    position: absolute;
+    top: 29px;
+    left: 148px;
+    content: "";
+    transition: .4s;
+}
+
+#story-part .details .button:hover:after{
+    width: 60px;
+}
+
+/* ==========================
+       story part end
+============================= */
+
+/* ==========================
+     products part start
+============================= */
+
+#products{
+    margin-top: 100px;
+}
+
+#products .heading{
+    position: relative;
+}
+
+#products .heading h3{
+    font-family: 'Great Vibes', cursive;
+    font-size: 44px;
+    font-weight: 500;
+    color: #b7c5a9;
+    margin-bottom: 60px;
+    text-align: center;
+    position: relative;
+}
+
+#products .heading h3:after{
+    width: 152px;
+    height: 2px;
+    background: #b7c5a9;
+    position: absolute;
+    top: 22px;
+    right: 300px;
+    content: "";
+}
+
+#products .heading:before{
+    width: 152px;
+    height: 2px;
+    background: #b7c5a9;
+    position: absolute;
+    top: 22px;
+    left: 300px;
+    content: "";
+}
+
+#products .main{
+    display: flex;
+    justify-content: space-between;
+}
+
+#products .botol{
+    width: 250px;
+    height: 695px;
+    border: 1px solid #dddddd;
+    position: relative;
+}
+
+#products .botol .pata{
+    width: 270px;
+    height: 415px;
+    background: #fff;
+    position: absolute;
+    top: 20px;
+    left: -10px;
+    -webkit-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.1);
+-moz-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.1);
+box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.1);
+}
+
+#products .botol .pata .degsin{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: .4s;
+}
+
+#products .botol:hover .pata .degsin{
+    opacity: 1;
+}
+
+#products .botol .wine{
+    position: absolute;
+    top: 125px;
+    left: 48px;
+}
+
+#products .botol .wine-two{
+    position: absolute;
+    top: 125px;
+    left: 70px;
+}
+
+#products .botol .wine-three{
+    position: absolute;
+    top: 125px;
+    left: 54px;
+}
+
+#products .botol .wine-four{
+    position: absolute;
+    top: 125px;
+    left: 70px;
+}
+
+#products .botol .price p{
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #444444;
+    position: absolute;
+    bottom: 60px;
+    left: 65px;
+}
+
+#products .botol .price h3{
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #444444;
+    position: absolute;
+    bottom: 32px;
+    left: 90px;
+}
+
+#products .botol:hover{
+    border-color: #b7c5a9;
+}
+
+/* ==========================
+      products part end
+============================= */
+
+/* ==========================
+      events part start
+============================= */
+
+#events{
+    margin-top: 100px;
+    background: url(../psd-img/upcoming-baground.png) no-repeat center;
+    background-size: cover;
+}
+
+#events .heading{
+    position: relative;
+}
+
+#events .heading h3{
+    font-family: 'Great Vibes', cursive;
+    font-size: 44px;
+    font-weight: 500;
+    color: #e4d2b9;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#events .heading h3:after{
+    width: 150px;
+    height: 2px;
+    background: #e4d2b9;
+    position: absolute;
+    top: 85px;
+    right: 265px;
+    content: "";
+}
+
+#events .heading h3:before{
+    width: 150px;
+    height: 2px;
+    background: #e4d2b9;
+    position: absolute;
+    top: 85px;
+    left: 265px;
+    content: "";
+}
+
+#events .main{
+    display: flex;
+    margin-left: 110px;
+}
+
+#events .upcoming{
+    width: 250px;
+    height: 515px;
+    border: 1px solid #dddddd;
+    position: relative;
+    margin-left: 50px;
+    margin-bottom: 60px;
+}
+
+#events .upcoming .pata{
+    width: 270px;
+    height: 475px;
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.1);
+    position: absolute;
+    top: 20px;
+    left: -10px;
+}
+
+#events .upcoming .pata .degsin{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: .4s;
+}
+
+#events .upcoming:hover .pata .degsin{
+    opacity: 1;
+}
+
+#events .upcoming .pata .details h2{
+    font-family: 'Arimo', sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    color: #444444;
+    position: absolute;
+    top: 84px;
+    left: 89px;
+}
+
+#events .upcoming .pata .details h3{
+    font-family: 'Great Vibes', cursive;
+    font-size: 34px;
+    font-weight: 400;
+    color: #444444;
+    position: absolute;
+    top: 175px;
+    left: 90px;
+}
+
+#events .upcoming .pata .details .month{
+    font-family: 'Great Vibes', cursive;
+    font-size: 34px;
+    font-weight: 400;
+    color: #444444;
+    position: absolute;
+    top: 175px;
+    left: 72px;
+}
+
+#events .upcoming .pata .details .d{
+    font-family: 'Great Vibes', cursive;
+    font-size: 34px;
+    font-weight: 400;
+    color: #444444;
+    position: absolute;
+    top: 175px;
+    left: 78px;
+}
+
+#events .upcoming .pata .details .d:after{
+    width: 50px;
+    height: 3px;
+    background: #e4d2b9;
+    border-radius: 20px;
+    position: absolute;
+    bottom: -6px;
+    left: 30px;
+    content: "";
+}
+
+#events .upcoming .pata .details .month:after{
+    width: 50px;
+    height: 3px;
+    background: #e4d2b9;
+    border-radius: 20px;
+    position: absolute;
+    bottom: -6px;
+    left: 40px;
+    content: "";
+}
+
+
+#events .upcoming .pata .details h3:after{
+    width: 50px;
+    height: 3px;
+    background: #e4d2b9;
+    border-radius: 20px;
+    position: absolute;
+    bottom: -6px;
+    left: 16px;
+    content: "";
+}
+
+#events .upcoming .pata .details h4{
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #444444;
+    position: absolute;
+    top: 235px;
+    left: 35px;
+}
+
+#events .upcoming .pata .details p{
+    font-family: 'Arimo', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #444444;
+    position: absolute;
+    top: 308px;
+    left: 28px;
+}
+
+#events .upcoming .pata .details .w{
+    font-family: 'Arimo', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #444444;
+    position: absolute;
+    top: 308px;
+    left: 38px;
+}
+
+#events .upcoming .pata .details .i{
+    font-family: 'Arimo', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #444444;
+    position: absolute;
+    top: 308px;
+    left: 18px;
+}
+
+#events .upcoming .pata .details .day{
+    font-family: 'Arimo', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #444444;
+    position: absolute;
+    top: 338px;
+    left: 110px;
+}
+
+#events .upcoming .pata .details .price{
+    font-family: 'Arimo', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #444444;
+    position: absolute;
+    top: 392px;
+    left: 84px;
+}
+
+/* ==========================
+       events part end
+============================= */
+
+/* ==========================
+       deal part start
+============================= */
+
+#deal-part{
+    margin-top: 100px;
+}
+
+#deal-part .main{
+    display: flex;
+    justify-content: space-between;
+}
+
+#deal-part .left{
+    width: 38%;
+}
+
+#deal-part .right{
+    width: 57%;
+    margin-right: -50px;
+}
+
+#deal-part .right h3{
+    font-family: 'Great Vibes', cursive;
+    font-size: 44px;
+    font-weight: 500;
+    color: #b7c5a9;
+    position: relative;
+}
+
+#deal-part .right h3:after{
+    width: 150px;
+    height: 2px;
+    background: #b7c5a9;
+    position: absolute;
+    top: 25px;
+    left: 45%;
+    content: "";
+}
+
+#deal-part .right p{
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444444;
+    line-height: 26px;
+    margin: 40px 0;
+}
+
+#deal-part .right .time .main{
+    display: flex;
+}
+
+#deal-part .right .time{
+    width: 620px;
+    height: 315px;
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 63px 0px rgba(0,0,0,0.1);
+-moz-box-shadow: 0px 0px 63px 0px rgba(0,0,0,0.1);
+box-shadow: 0px 0px 63px 0px rgba(0,0,0,0.1);
+     margin-top: 70px;
+     text-align: center;
+     position: relative;
+}
+
+#deal-part .right .time .timmer{
+    padding: 30px 117px;
+}
+
+#deal-part .right .time .t-one{
+    padding-left: 105px;
+    position: relative;
+}
+
+#deal-part .right .time:after{
+    width: 722px;
+    height: 2px;
+    background: #eeeeee;
+    position: absolute;
+    top: 50%;
+    left: -50px;
+    content: "";
+}
+
+#deal-part .right .time .t-one:before{
+    width: 2px;
+    height: 400px;
+    background: #eeeeee;
+    position: absolute;
+    top: -200px;
+    left: 100%;
+    content: "";
+}
+
+#deal-part .right .time .timmer h2{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 46px;
+    font-weight: 500;
+    color: #000;
+}
+
+#deal-part .right .time .timmer h4{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 24px;
+    font-weight: 500;
+    color: #000;
+}
+
+/* ==========================
+       deal part end
+============================= */
+
+/* ==========================
+      latest part start
+============================= */
+
+#latest{
+    margin-top: 100px;
+    background: url(../psd-img/latest-baground.png) no-repeat center;
+    background-size: cover;
+    padding: 60px 0;
+}
+
+#latest .main{
+    display: flex;
+    justify-content: space-between;
+}
+
+#latest .updates{
+    width: 30%;
+}
+
+#latest .updates .heading{
+    margin-top: 150px;
+}
+
+#latest .updates .heading h3{
+    font-family: 'Great Vibes', cursive;
+    font-size: 44px;
+    font-weight: 500;
+    color: #b7c5a9;
+    position: relative;
+}
+
+#latest .updates .heading h3:after{
+    width: 110px;
+    height: 2px;
+    background: #b7c5a9;
+    position: absolute;
+    top: 28px;
+    right: -10px;
+    content: "";
+}
+
+#latest .updates .heading p{
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444444;
+    line-height: 26px;
+    margin: 45px 0;
+}
+
+#latest .updates .heading .arrow{
+    width: 70px;
+    height: 70px;
+    border: 1px solid #b7c5a9;
+    border-radius: 50%;
+    line-height: 72px;
+    text-align: center;
+    font-size: 20px;
+    color: #b7c5a9;
+    transition: .4s;
+}
+
+#latest .updates .heading .i{
+    width: 70px;
+    height: 70px;
+    border: 1px solid #b7c5a9;
+    border-radius: 50%;
+    line-height: 72px;
+    text-align: center;
+    margin-right: 190px;
+}
+
+#latest .updates .heading .arrow:hover{
+    background: #b7c5a9;
+    color: #fff;
+}
+
+#latest .post{
+    width: 350px;
+    height: 570px;
+    border: 1px solid #dddddd;
+    position: relative;
+}
+
+#latest .post .image{
+    width: 370px;
+    height: 530px;
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 51px 0px rgba(0,0,0,0.1);
+-moz-box-shadow: 0px 0px 51px 0px rgba(0,0,0,0.1);
+box-shadow: 0px 0px 51px 0px rgba(0,0,0,0.1);
+    position: absolute;
+    top: 20px;
+    left: -10px;
+}
+
+#latest .post .image .admin{
+    width: 310px;
+    height: 50px;
+    background: #b7c5a9;
+    border-radius: 30px;
+    position: absolute;
+    top: 245px;
+    left: 30px;
+}
+
+#latest .post .image .p{
+    width: 310px;
+    height: 50px;
+    background: #e4d2b9;
+    border-radius: 30px;
+    position: absolute;
+    top: 245px;
+    left: 30px;
+}
+
+
+#latest .post .image .admin h5{
+    font-family: 'Arimo', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    line-height: 48px;
+    position: absolute;
+    left: 25px;
+}
+
+#latest .post .image .admin .one{
+    font-family: 'Arimo', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #444444;
+    text-align: center;
+    line-height: 48px;
+    position: absolute;
+    left: 25px;
+}
+
+#latest .post .image .admin .date{
+    font-family: 'Arimo', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    line-height: 48px;
+    right: -105px;
+}
+
+#latest .post .image .admin .two{
+    font-family: 'Arimo', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #444444;
+    text-align: center;
+    line-height: 48px;
+    right: -105px;
+}
+
+#latest .post .image h3{
+    font-family: 'Arimo', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #444444;
+    position: absolute;
+    bottom: 160px;
+    left: 35px;
+}
+
+#latest .post .image p{
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444444;
+    line-height: 26px;
+    position: absolute;
+    bottom: 62px;
+    left: 35px;
+    padding-right: 50px;
+}
+
+#latest .post .image a{
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #444444;
+    position: absolute;
+    bottom: 24px;
+    left: 35px;
+}
+
+#latest .post-two{
+    width: 30%;
+    height: 400px;
+    background: rgb(32, 186, 197);
+}
+
+/* ==========================
+       latest part end
+============================= */
+
+/* ==========================
+       footer part start
+============================= */
+
+footer{
+    background: url(../psd-img/baground.png) no-repeat center;
+    background-size: cover;
+}
+
+footer .image{
+    text-align: center;
+    position: relative;
+}
+
+footer .image img{
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+footer .image:after{
+    width: 1145px;
+    height: 2px;
+    background: #181c21;
+    content: "";
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+}
+
+footer .main{
+    display: flex;
+}
+
+footer .contact{
+    width: 38%;
+}
+
+footer .contact .icon i{
+    width: 70px;
+    height: 70px;
+    background: #e3d1b8;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    font-size: 21px;
+    color: #fff;
+    margin-bottom: 60px;
+    margin-right: 30px;
+}
+
+
+footer .contact .text{
+    width: 45%;
+    margin-top: 5px;
+    position: relative;
+}
+
+footer .contact .text:after{
+    width: 370px;
+    height: 2px;
+    background: #181c21;
+    content: "";
+    position: absolute;
+    bottom: 25%;
+    left: -100px;
+}
+
+footer .contact .last{
+    width: 51%;
+    margin-top: 20px;
+}
+
+footer .contact .text p{
+    font-family: 'Arimo', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 30px;
+}
+
+footer .contact .last p{
+    font-family: 'Arimo', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+
+footer .contact .copy-right:after{
+    width: 1145px;
+    height: 2px;
+    background: #181c21;
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: 0;
+}
+
+footer .contact .copy-right{
+    position: relative;
+}
+
+footer .contact .copy-right p{
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+footer .contact .copy-right span{
+    margin-right: 20px;
+}
+
+footer .contact .copy-right i{
+    color: #fff;
+    position: absolute;
+    top: 2px;
+    left: 75px;
+}
+
+footer .details{
+    width: 20%;
+}
+
+footer .details .text{
+    font-family: 'Arimo', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+
+footer .details .text ul li{
+    margin-bottom: 38px;
+    transition: .4s;
+}
+
+footer .details .text ul li:hover{
+    color: #e3d1b8;
+}
+
+footer .subscribe{
+    width: 40%;
+}
+
+footer .subscribe .newsletter{
+    width: 370px;
+    height: 70px;
+    background: #1d2228;
+    border: 1px solid #444444;
+    position: relative;
+}
+
+footer .subscribe .newsletter p{
+    font-family: 'Arimo', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #444444;
+    padding: 25px 20px;
+}
+
+footer .subscribe .newsletter .button{
+    width: 150px;
+    height: 50px;
+    background: #e3d1b8;
+    position: absolute;
+    top: 10px;
+    left: 85%;
+}
+
+footer .subscribe .newsletter .button h3{
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #444444;
+    text-align: center;
+    padding-top: 12px;
+}
+
+footer .subscribe .map{
+    margin-top: 30px;
+}
+
+footer .subscribe .social-media .main{
+    display: flex;
+}
+
+footer .subscribe .social-media{
+    width: 45%;
+    margin-top: 104px;
+    margin-left: 257px;
+}
+
+footer .subscribe .social-media .icon {
+    width: 50px;
+    height: 77px;
+    border: 1px solid #181c21;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 77px;
+    transition: .4s;
+}
+
+footer .subscribe .social-media .icon:hover{
+    background: #e4d2b9;
+    color: #444444;
+}
+
+/* ==========================
+       footer part end
+============================= */

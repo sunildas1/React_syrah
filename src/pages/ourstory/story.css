@@ -1,0 +1,76 @@
+#story-part{
+    padding: 100px 0;
+}
+
+#story-part .main{
+    display: flex;
+    justify-content: space-between;
+}
+
+#story-part .image{
+    width: 48%;
+}
+
+#story-part .details{
+    width: 49%;
+    margin-top: 120px;
+    margin-right: -70px;
+}
+
+#story-part .details h3{
+    font-family: 'Great Vibes', cursive;
+    font-size: 44px;
+    font-weight: 500;
+    color: #e4d2b9;
+    position: relative;
+}
+
+#story-part .details h3:after{
+    width: 200px;
+    height: 2px;
+    background: #e4d2b9;
+    position: absolute;
+    top: 25px;
+    left: 200px;
+    content: "";
+}
+
+#story-part .details p{
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444444;
+    line-height: 26px;
+    margin: 40px 0;
+}
+
+#story-part .details .button{
+    width: 165px;
+    height: 60px;
+    background: #e4d2b9;
+    text-align: center;
+    line-height: 60px;
+    position: relative;
+}
+
+#story-part .details .button a{
+    font-family: 'Arimo', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+
+#story-part .details .button:after{
+    width: 0;
+    height: 2px;
+    background: #a78f6d;
+    position: absolute;
+    top: 29px;
+    left: 148px;
+    content: "";
+    transition: .4s;
+}
+
+#story-part .details .button:hover:after{
+    width: 60px;
+}

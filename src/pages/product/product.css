@@ -1,0 +1,121 @@
+#products{
+    padding: 100px 0;
+}
+
+#products .heading{
+    position: relative;
+}
+
+#products .heading h3{
+    font-family: 'Great Vibes', cursive;
+    font-size: 44px;
+    font-weight: 500;
+    color: #b7c5a9;
+    margin-bottom: 60px;
+    text-align: center;
+    position: relative;
+}
+
+#products .heading h3:after{
+    width: 152px;
+    height: 2px;
+    background: #b7c5a9;
+    position: absolute;
+    top: 22px;
+    right: 300px;
+    content: "";
+}
+
+#products .heading:before{
+    width: 152px;
+    height: 2px;
+    background: #b7c5a9;
+    position: absolute;
+    top: 22px;
+    left: 300px;
+    content: "";
+}
+
+#products .main{
+    display: flex;
+    justify-content: space-between;
+}
+
+#products .botol{
+    width: 250px;
+    height: 695px;
+    border: 1px solid #dddddd;
+    position: relative;
+}
+
+#products .botol .pata{
+    width: 270px;
+    height: 415px;
+    background: #fff;
+    position: absolute;
+    top: 20px;
+    left: -10px;
+    -webkit-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.1);
+-moz-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.1);
+box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.1);
+}
+
+#products .botol .pata .degsin{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: .4s;
+}
+
+#products .botol:hover .pata .degsin{
+    opacity: 1;
+}
+
+#products .botol .wine{
+    position: absolute;
+    top: 125px;
+    left: 48px;
+}
+
+#products .botol .wine-two{
+    position: absolute;
+    top: 125px;
+    left: 70px;
+}
+
+#products .botol .wine-three{
+    position: absolute;
+    top: 125px;
+    left: 54px;
+}
+
+#products .botol .wine-four{
+    position: absolute;
+    top: 125px;
+    left: 70px;
+}
+
+#products .botol .price p{
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #444444;
+    position: absolute;
+    bottom: 60px;
+    left: 65px;
+}
+
+#products .botol .price h3{
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #444444;
+    position: absolute;
+    bottom: 32px;
+    left: 90px;
+}
+
+#products .botol:hover{
+    border-color: #b7c5a9;
+}
