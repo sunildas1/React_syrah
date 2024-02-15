@@ -54,12 +54,12 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="subscribe">
-                    <div className="newsletter">
-                        <p>Subscribe for Newsletter</p>
-                        <div className="button">
-                            <h3>Subscribe</h3>
+                    <form action="" method=''>
+                        <div className='main_inputbox'>
+                            <input className='input' type="text" name='' placeholder='Subscribe for Newsletter'/>
+                            <button className='button'>Subscribe</button>
                         </div>
-                    </div>
+                    </form>
                     <div className="map">
                         <img src="psd-img/map.png" alt="map.png"/>
                     </div>

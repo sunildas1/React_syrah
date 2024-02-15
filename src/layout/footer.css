@@ -137,40 +137,36 @@ footer .details .text ul li:hover{
 
 footer .subscribe{
     width: 40%;
-}
-
-footer .subscribe .newsletter{
-    width: 370px;
-    height: 70px;
-    background: #1d2228;
-    border: 1px solid #444444;
     position: relative;
 }
 
-footer .subscribe .newsletter p{
-    font-family: 'Arimo', sans-serif;
-    font-size: 17px;
-    font-weight: 400;
-    color: #444444;
-    padding: 25px 20px;
+footer .subscribe .input{
+    width: 370px;
+    height: 70px;
+    border: 1px solid #444444;
+    color: #fff;
+    
 }
 
-footer .subscribe .newsletter .button{
+footer .subscribe .main_inputbox .button{
     width: 150px;
     height: 50px;
     background: #e3d1b8;
     position: absolute;
     top: 10px;
-    left: 85%;
-}
-
-footer .subscribe .newsletter .button h3{
+    right: 0;
     font-family: 'Arimo', sans-serif;
     font-size: 20px;
     font-weight: 500;
     color: #444444;
     text-align: center;
-    padding-top: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+footer .subscribe .input:hover{
+    background: none;
+    color: none;
 }
 
 footer .subscribe .map{
@@ -202,3 +198,4 @@ footer .subscribe .social-media .icon:hover{
     background: #e4d2b9;
     color: #444444;
 }
+
